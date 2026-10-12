@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7E5A4"/>
+      <stop offset="45%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#A87916"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8F8FA"/>
+      <stop offset="50%" stop-color="#C9CDD6"/>
+      <stop offset="100%" stop-color="#9EA5B2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Elegant R -->
+  <text x="330" y="350"
+        text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="300"
+        font-style="italic"
+        font-weight="700"
+        fill="url(#gold)">R</text>
+
+  <!-- Elegant C, slightly overlapping -->
+  <text x="470" y="350"
+        text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="300"
+        font-style="italic"
+        font-weight="700"
+        fill="url(#silver)">C</text>
+
+  <!-- Calligraphic connecting flourish -->
+  <path d="M235 365 C315 420 470 435 590 365
+           C635 338 658 350 646 382
+           C633 418 586 441 530 438"
+        fill="none"
+        stroke="url(#gold)"
+        stroke-width="7"
+        stroke-linecap="round"/>
+
+  <!-- Small diamond accent -->
+  <path d="M400 402 L414 416 L400 430 L386 416 Z"
+        fill="url(#gold)"/>
+
+  <!-- Small heart -->
+  <path d="M400 225
+           C386 207 355 216 355 240
+           C355 262 400 286 400 286
+           C400 286 445 262 445 240
+           C445 216 414 207 400 225 Z"
+        fill="none"
+        stroke="url(#gold)"
+        stroke-width="5"/>
+</svg>
